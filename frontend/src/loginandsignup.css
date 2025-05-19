@@ -1,0 +1,94 @@
+/* Container for login/signup forms */
+.auth-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 30px 25px;
+    background: linear-gradient(135deg, #004d4d, #002b2b);
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 77, 77, 0.7);
+    color: #b2dfdb;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Headers */
+.auth-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    color: #00cccc;
+    text-shadow: 0 0 8px #00cccc;
+}
+
+/* Form */
+.auth-form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Inputs */
+.auth-input {
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #009999;
+    background-color: #004d4d;
+    color: #b2dfdb;
+    font-size: 16px;
+    box-shadow: inset 0 0 8px #003333;
+    transition: border-color 0.3s ease;
+}
+
+.auth-input::placeholder {
+    color: #80cbc4;
+}
+
+.auth-input:focus {
+    border-color: #00cccc;
+    outline: none;
+    box-shadow: 0 0 12px #00cccc;
+}
+
+/* Buttons */
+.auth-button {
+    padding: 12px;
+    background-color: #008080;
+    border: none;
+    border-radius: 12px;
+    color: #e0f7f7;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 6px 12px #005757;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.auth-button:hover {
+    background-color: #00b3b3;
+    box-shadow: 0 8px 20px #00cccc;
+}
+
+/* Links */
+.auth-link {
+    display: block;
+    margin-top: 15px;
+    text-align: center;
+    color: #00cccc;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.auth-link:hover {
+    color: #66ffff;
+}
+
+/* Error or info messages */
+.auth-message {
+    color: #ff6666;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 600;
+    text-shadow: 0 0 4px #800000;
+}

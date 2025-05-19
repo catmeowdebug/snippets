@@ -1,0 +1,68 @@
+/* ProfileView.css */
+
+.profile-container {
+    max-width: 480px;
+    margin: 50px auto;
+    padding: 30px 40px;
+    background: linear-gradient(135deg, #004d4d 0%, #006666 100%);
+    border-radius: 20px;
+    box-shadow: 0 12px 40px rgba(0, 102, 102, 0.8);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #b2dfdb;
+    backdrop-filter: blur(6px);
+    border: 1px solid rgba(0, 77, 77, 0.7);
+}
+
+.profile-header {
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #a0d6d6;
+    text-shadow: 1.5px 1.5px 6px rgba(0, 51, 51, 0.8);
+}
+
+.profile-info {
+    font-size: 18px;
+    margin: 14px 0;
+    line-height: 1.5;
+    color: #c0e8e8;
+}
+
+.profile-label {
+    font-weight: 600;
+    color: #80cccc;
+}
+
+.profile-image {
+    display: block;
+    max-width: 150px;
+    margin: 25px auto;
+    border-radius: 15px;
+    border: 3px solid #008080;
+    box-shadow: 0 0 20px #004d4d;
+    filter: drop-shadow(0 0 5px #00b3b3);
+}
+
+.edit-link {
+    display: block;
+    margin: 30px auto 0 auto;
+    width: fit-content;
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 10px 22px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #004d4d;
+    background-color: #b2dfdb;
+    box-shadow: 0 4px 15px rgba(0, 77, 77, 0.7);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.edit-link:hover {
+    background-color: #00cccc;
+    color: #002b2b;
+    box-shadow: 0 6px 20px #00cccc;
+    cursor: pointer;
+}
