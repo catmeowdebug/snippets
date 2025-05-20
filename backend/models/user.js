@@ -12,6 +12,7 @@ const userschema =new mongoose.Schema({
         unique:true,
     },
     nickname:String,
-    profileimage:String
+    profileimage:String,
+    friends:[{type:mongoose.Schema.Types.ObjectId, ref:'User'}],
 });
 module.exports=mongoose.model('User',userschema);
